@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Count chars project</title>
+  </head>
+  <body>
+    <h1>Count chars project</h1>
+
+    <div class="container">
+      <form>
+        <label for="word">word</label>
+        <input type="text" name="word" id="word" />
+
+        <label for="character">character</label>
+        <input type="text" name="character" id="char" />
+
+        <button id="submit-btn" type="submit">submit</button>
+      </form>
+
+      <div class="span-container">
+        <p>The word is: <span class="span-word"></span></p>
+
+        <p class="count-plural">
+          The character <span class="span-char"></span> is counted
+          <span class="span-count"></span> time(s)
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
