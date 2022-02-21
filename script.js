@@ -1,4 +1,5 @@
 const btn = document.getElementById("submit-btn");
+const clearBtn = document.getElementById("clear-btn");
 const charInput = document.getElementById("char");
 const wordInput = document.getElementById("word");
 const spanWord = document.querySelector(".span-word");
@@ -23,4 +24,10 @@ const countChar = (string, char) => {
 btn.addEventListener("click", (e) => {
   e.preventDefault();
   countChar();
+});
+
+clearBtn.addEventListener("click", (e) => {
+  spanWord.innerText = "";
+  spanChar.innerText = "";
+  spanCount.innerText = "";
 });

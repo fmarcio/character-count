@@ -46,6 +46,7 @@ label {
 
 button {
   width: 200px;
+  margin: 5px 0;
   padding: 5px 0;
   color: #fff;
   background: #333;
