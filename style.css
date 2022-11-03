@@ -61,7 +61,8 @@ p {
 
 .span-word,
 .span-char,
-.span-count {
+.span-count,
+.word-length {
   color: #109c20;
   font-weight: bold;
 }
